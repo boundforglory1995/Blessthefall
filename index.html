@@ -1,0 +1,368 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Blessthefall</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+</head>
+<body>
+
+<ul class="nav">
+	<img class="logo" src="logo.svg">
+
+
+<li><a href="#">Home</a></li>
+<li><a href="#beau">Members</a></li>
+<li><a href="#tourTitle">Tours</a></li>
+<li><a href="#">Videos</a></li>
+<li><a href="#pictures">Pictures</a></li>
+</ul>
+
+<div id="header">
+<img src="down.png" id="scrollDown" />
+</div>
+<div id="pictures">
+<img src="img1.jpg" class="imagesB" id="img1"/>
+<img src="img2.jpg" class="imagesB" id="img2"/>
+<img src="img3.jpg" class="imagesB" id="img3"/>
+<img src="img4.jpg" class="imagesB" id="img4"/>
+<img src="img5.jpg" class="imagesB" id="img5"/>
+<img src="img6.jpg" class="imagesB" id="img6"/>
+<img src="img7.jpg" class="imagesB" id="img7"/>
+<img src="img8.jpg" class="imagesB" id="img8"/>
+<img src="img9.jpg" class="imagesB" id="img9"/>
+<img src="img10.jpg" class="imagesB" id="img10"/>
+<img src="img11.jpg" class="imagesB" id="img11"/>
+<img src="img12.jpg" class="imagesB" id="img12"/>
+</div>
+
+
+<div id="preorder">
+  <img src="album.png" id="album"/>
+  <img src="those.svg" id="svgthose"/>
+  <a href="https://play.spotify.com/album/5FWARvEPmYgF2U5TD70lrA?play=true&utm_source=open.spotify.com&utm_medium=open"><img src="spotify.svg" id="spotify"/></a>
+  <a href="https://itunes.apple.com/us/album/to-those-left-behind/id1022945879"><img src="itunes.svg" id="itunes"/></a>
+  </div>
+
+<div class="content">
+<h1> Band Leden</h1>
+
+<section>
+<img src="1.jpg" id="beau">
+<p>Beau Bokan – clean vocals, keyboards (2008–present), backing unclean vocals (2014–present)</p>
+</section>
+<section>
+<img src="2.jpg" id="elliot">
+<p>Elliott Gruenberg – rhythm guitar, backing unclean vocals (2011–present)</p>
+</section>
+<section>
+<img src="3.jpg" id="eric">
+<p>Eric Lambert – lead guitar, backing clean vocals (2005–present), clean vocals (2007–2008), rhythm guitar (2003–2005)</p>
+</section>
+<section>
+<img src="4.jpg" id="jared">
+<p>Jared Warth – bass guitar, unclean vocals, clean vocals (2003–present), keyboards (2005–2008)</p>
+</section>
+<section>
+<img src="5.jpg" id="matt">
+<p>Matt Traynor – drums, percussion (2003–present)</p>
+</section>
+<h1>Albums</h1>
+<section>	
+<img src="HisLastWalk.jpg" id="walk">
+<h2>His Last Walking</h2>
+	<p>Craig Mabbitt – lead vocals
+Eric Lambert – lead guitar
+Mike Frisby – rhythm guitar
+Jared Warth – bass guitar, unclean vocals, keyboards, programming
+Matt Traynor – drums</p>
+
+<a href="#Modal" id="anchormodal">Show Us More</a>
+
+<div id="Modal" class="modalDialog">
+	<div class="modalunit">
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>His Last Walk</h2>
+		<p id="test">His Last Walk is the debut full-length album by American post-hardcore band Blessthefall, released April 10, 2007.</p> <p class="test">It is the only release by the band to feature original vocalist, Craig Mabbitt, who would later be replaced by Beau Bokan.</p><p class="test">The album was released before Blessthefall started to play on the Taste of Chaos tour.</p><p class="test"> Four singles were released for the album: "Higinia", "Guys Like You Make Us Look Bad", "A Message to the Unknown", and "Rise Up." The last song, "His Last Walk", features a bonus song (at the end of the same track) called "Purple Dog", which is a joke song made by the band members.</p>
+		<input type="button" id="more" value="More.." onclick="myFunction()">
+		<input type="button" id="back" value="Back..">
+
+<script>
+ var preorder = $(".order");
+preorder.css("width","500px");
+preorder.css("height","400px");
+preorder.css("border","none");
+preorder.css("border-radius","0%");
+preorder.css("box-shadow","none");
+	function myFunction() {
+		var newString = "testing this out";
+		var str  = document.getElementById("test").innerHTML;
+		var result = str.replace(str,newString);
+		
+		document.getElementById("test").innerHTML = result;
+  
+}
+    
+
+var logo =$(".logo");
+var svgthose=$('#svgthose');
+var album = $('#album');
+var spotify = $('#spotify');
+var itunes = $('#itunes');
+var imagesHolder= $('.imagesB');
+
+logo.css("width","120px");
+logo.css("height","120px");
+logo.css("border","none");
+logo.css("box-shadow","none");
+logo.css("border-radius","0%");
+logo.css("opacity","1");
+
+svgthose.css("width","350px");
+svgthose.css("height","350px");
+svgthose.css("border","none");
+svgthose.css("box-shadow","none");
+svgthose.css("border-radius","0%");
+svgthose.css("opacity","1");
+
+album.css("width","750px");
+album.css("height","450px");
+album.css("border","none");
+album.css("box-shadow","none");
+album.css("border-radius","0%");
+album.css("opacity","1");
+
+spotify.css("width","90px");
+spotify.css("height","90px");
+spotify.css("border","none");
+spotify.css("margin-left","3%");
+spotify.css("margin-bottom","3.2%");
+spotify.css("box-shadow","none");
+spotify.css("border-radius","0%");
+spotify.css("opacity","1");
+
+
+itunes.css("width","100px");
+itunes.css("height","100px");
+itunes.css("border","none");
+itunes.css("box-shadow","none");
+itunes.css("border-radius","0%");
+itunes.css("opacity","1");
+itunes.css("margin-bottom","3.2%");
+
+
+imagesHolder.css("width","250px");
+imagesHolder.css("height","250px");
+
+
+imagesHolder.css("border-radius","0%");
+imagesHolder.css("opacity","1");
+imagesHolder.css("margin-bottom","1.2%");
+imagesHolder.css("z-index","9999");
+
+
+
+
+
+var downClick = $("#scrollDown");
+downClick.click(function(){
+  $('html,body').animate({
+        scrollTop: $("#beau").offset().top},
+        'slow')
+
+
+}); 
+    
+$(window).scroll(function(){
+
+      var imageSection = $("#beau,#elliot,#jared,#eric,#matt");
+      var imageSection2 = $("#walk,#witness,#hollow,#forthose,#awakening");
+      var table = $("#tr1 > th");
+      var table2 = $("#tr2 > th");
+      var table3 = $("#tr3 > th");
+      var table4 = $("#tr4 > th");
+      var table5 = $("#tr5 > th");
+      var table6 = $("#tr6 > th");
+
+ var tabling = $("table");
+ tabling.css("opacity","1");
+
+
+ var tables =$("th");
+  tables.css("background" ,"#2c3235");
+ tables.css("opacity","1");
+ tables.css("color","white");
+ table.css("box-shadow"," 1px 1px 40px purple");
+ table.css("background-color","black");
+ table2.css("box-shadow", "1px 1px 40px yellow");
+ table2.css("background-color","black");
+ table3.css("box-shadow", "1px 1px 40px blue");
+ table3.css("background-color","black");
+ table4.css("box-shadow", "1px 1px 40px orange");
+ table4.css("background-color","black");
+ table5.css("box-shadow", "1px 1px 40px grey");
+ table5.css("background-color","black");
+ table6.css("box-shadow", "1px 1px 40px pink");
+ table6.css("background-color", "black");
+var  hscroll = $(this).scrollTop();
+console.log(hscroll);
+
+if(hscroll >= 1166){
+    
+	imageSection.css("opacity","1");
+	
+   
+    
+}else{
+	imageSection.css("opacity","0.6");
+}
+if(hscroll >= 1900){
+imageSection2.css("opacity","1");
+
+}else{
+imageSection2.css("opacity","0.6");
+}
+if(hscroll >=2127){
+   
+   table.fadeOut(300).fadeIn(100);
+   table2.fadeOut(400).fadeIn(200);
+   table3.fadeOut(500).fadeIn(300);
+   table4.fadeOut(600).fadeIn(400);
+   table5.fadeOut(700).fadeIn(500);
+   table6.fadeOut(800).fadeIn(600);
+
+
+}if(hscroll >= 0){
+
+for(i = 0; i<10; i++){
+	downClick.css("opacity","1");
+downClick.delay(100).fadeOut().fadeIn('slow');
+}
+}
+
+});
+var imageSection = $("#beau,#elliot,#jared,#eric,#matt");
+var counter = 0;
+	imageSection.hover(function(){
+     $("#beau").fadeOut(400).fadeIn(200);
+     $("#elliot").fadeOut(500).fadeIn(300);
+     $("#jared").fadeOut(600).fadeIn(400);
+     $("#eric").fadeOut(700).fadeIn(500);
+     $("#matt").fadeOut(800).fadeIn(600)
+    counter++;
+    console.log(counter);
+    counter =2;
+   
+    if(counter == 2){
+    	
+   
+     counter++;
+     counter = 4;
+    }
+    if(counter == 4){
+    	 $("#matt").attr("src","3.jpg");
+    	 imageSection.animate({height:"60%",width:"60%"});
+    }
+     });
+ 
+
+	</script>
+ 	</div>
+
+</div>
+
+</section>
+<section>
+<img src="Witness.jpg" id="witness">
+<h2>Witness</h2>
+<p>Beau Bokan – clean vocals, keyboards, piano
+Eric Lambert – lead guitar
+Mike Frisby – rhythm guitar
+Jared Warth – bass, unclean vocals
+Matt Traynor – drums, percussion
+</p>
+<a href="#Modal" id="anchormodal2">Show Us More</a>
+</section>
+<section>
+<img src="Awakening.jpg" id="awakening">
+<h2>Awakening</h2>
+<p>Beau Bokan – clean vocals, keyboards, piano
+Eric Lambert – lead guitar
+Elliott Gruenberg – rhythm guitar, backing vocals
+Jared Warth – bass
+Matt Traynor – drums
+</p>
+<a href="#Modal" id="anchormodal3">Show Us More</a>
+</section>
+<section>
+<img src="HollowBodies.jpg" id="hollow">
+<h2>Hollow Bodies</h2>
+<p>Beau Bokan – clean vocals, keyboards, piano, programming
+Eric Lambert – lead guitar
+Elliott Gruenberg – rhythm guitar
+Jared Warth – bass
+Matt Traynor – drums	</p>
+<a href="#Modal" id="anchormodal4">Show Us More</a>
+</section>
+<section>
+<img src="ToThoseLeftBehind.jpg" id="forthose">
+<h2>To Those Left Behind</h2>
+<p>Eric Lambert – lead guitar, backing vocals
+Matt Traynor – drums, percussion
+Jared Warth – bass guitar
+Beau Bokan – clean vocals, keyboards
+Elliott Gruenberg – rhythm guitar
+</p>
+<a href="#Modal" id="anchormodal5">Show Us More</a>
+</section>
+
+
+
+</div>
+<div class="lineSeperator"></div>
+<table>
+<h1 id="tourTitle">Tour Schema</h1>
+
+  <tr id="tr1">
+    <th>OCT 30</th>
+    <th>Richmond, VA</th>
+    <th>The Broadberry</th>
+  </tr>
+  <tr id="tr2">
+  	<th>OCT 31</th>
+    <th>Lancaster, PA</th>
+    <th>Chameleon Club</th>
+   
+  </tr>
+  <tr id="tr3">
+    <th>NOV 1</th>
+    <th>Erie, PA</th>
+    <th>Basement Transmissions</th>
+  </tr>
+   <tr id="tr4">
+    <th>NOV 2</th>
+    <th>Syracuse ,NY</th>
+    <th>The Lost Horizon</th>
+  </tr>
+   <tr id="tr5">
+    <th>NOV 3</th>
+    <th>Clifton Park ,NY</th>
+    <th>Upstate Concert Hall</th>
+  </tr>
+   <tr id="tr6">
+    <th>NOV 5</th>
+    <th>New Haven ,CT</th>
+    <th>Toad's Place</th>
+  </tr>
+</table>
+<div class="lineSeperator2"></div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
